@@ -1,55 +1,48 @@
-package strings;
+package strings.reversePatterns;
 
-import java.util.Arrays;
-
-public class reverseOnlyVowels {
+public class ReverseOnlyVowels {
 
     public static void main(String[] args) {
 
-        String s = "leetcode";
+        String str = "leetcode"; //leotcede
 
-        System.out.println(reverseVowel(s));
-        //Output: "leotcede"
+        System.out.println(reverseOnlyVowels(str));
+
     }
 
 
-    public static String reverseVowel(String s) {
+    public static String reverseOnlyVowels(String str) {
 
-        char[] str = s.toCharArray();
-        int left = 0;
-        int right = str.length - 1;
+        char ch[] = str.toCharArray();
+        int i = 0;
+        int j = str.length() - 1;
 
-        while (left <= right) {
+        while (i < j) {
 
-            while (left<right && isVowel(str[left]) == false) {
-                left++;
+            if (isVowel(ch[i]) == false) {
+
+                i++;
+            } else if (isVowel(ch[j]) == false) {
+                j--;
+            } else {
+
+                char temp = ch[i];
+                ch[i] = ch[j];
+                ch[j] = temp;
+                i++;
+                j--;
+
             }
-            while (left<right && isVowel(str[right]) == false) {
-                right--;
-
-            }
-            swap(str, left, right);
-
-            left++;
-            right --;
-
 
         }
-return new String(str);
+        return new String(ch);
     }
 
-    public static boolean isVowel(char ch) {
+    public static boolean isVowel(char c) {
 
-        return "aeiouAEIOU".indexOf(ch)!=-1;
+        return "aeiouAEIOU".indexOf(c) != -1;
+
     }
 
 
-    public static void swap(char[] str, int i, int j) {
-
-            char temp = str[i];
-            str[i] = str[j];
-            str[j] = temp;
-
-        }
-    }
-
+}
