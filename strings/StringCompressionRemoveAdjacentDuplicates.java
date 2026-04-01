@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Strings;
+package strings;
 
 /**
  * @author TaniyaSharma
