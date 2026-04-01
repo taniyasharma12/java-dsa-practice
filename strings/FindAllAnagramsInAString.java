@@ -1,4 +1,4 @@
-package strings.frequencyCounting;
+package strings;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
