@@ -1,4 +1,4 @@
-package strings.substringSearch;
+package strings;
 
 import java.util.Arrays;
 
