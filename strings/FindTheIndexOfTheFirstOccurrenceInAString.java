@@ -1,4 +1,4 @@
-package strings.substringSearch;
+package strings;
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {
 
