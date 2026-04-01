@@ -1,4 +1,4 @@
-package strings.reversePatterns;
+package strings;
 
 public class ReverseWordsInAString {
 
