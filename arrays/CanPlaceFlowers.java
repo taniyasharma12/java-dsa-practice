@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 public class CanPlaceFlowers {
 
 	public static void main(String[] args) {
