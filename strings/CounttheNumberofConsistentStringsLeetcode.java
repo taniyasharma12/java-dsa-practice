@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
