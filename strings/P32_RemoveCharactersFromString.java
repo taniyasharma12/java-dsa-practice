@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 public class P32_RemoveCharactersFromString {
 
