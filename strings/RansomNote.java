@@ -1,4 +1,4 @@
-package strings.frequencyCounting;
+package strings;
 
 public class RansomNote {
 
