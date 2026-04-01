@@ -1,0 +1,27 @@
+⭐ PATTERN 1: Frequency Counting (Most Common Use of HashMap)
+
+1. Ransom Note (HackerRank / LeetCode) => DONE
+2. First Non-Repeating Character => DONE
+3. Valid Anagram => DONE
+
+⭐ PATTERN 2: Membership Checking (Use HashSet)
+4. Contains Duplicate => DONE
+5. Two Strings (HackerRank) => DONE
+
+⭐ PATTERN 3: Map for Index Lookups
+6. Two Sum (Must Know)  => DONE
+7. Ice Cream Parlor (HackerRank) => DONE
+
+⭐ PATTERN 4: Counting Distinct Elements (HashSet)
+8. Count Distinct Elements => DONE
+9. Intersection of Two Arrays => DONE
+
+⭐ PATTERN 5: Sliding Window + HashSet
+10. Longest Substring Without Repeating Characters (Top interview problem) => DONE
+
+⭐ PATTERN 6: Grouping (HashMap of Lists)
+11. Group Anagrams => DONE
+
+⭐ PATTERN 7: Sequence Checking Using HashSet
+12. Longest Consecutive Sequence => DONE
+
