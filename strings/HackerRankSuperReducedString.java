@@ -1,4 +1,4 @@
-package Strings;
+package strings;
 
 import java.util.Iterator;
 import java.util.Stack;
