@@ -1,1 +1,1 @@
-# Java-Programming-Exercises.
+This repository showcases my Java-based practice of Data Structures and Algorithms, organized by core topics and problem-solving patterns. It reflects my focus on writing clean, maintainable, and efficient code, aligned with my experience as a Software Development Engineer in Test (SDET).
