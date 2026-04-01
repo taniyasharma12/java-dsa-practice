@@ -1,0 +1,50 @@
+package basics;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+public class DuplicateIndices {
+
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3, 2, 4, 1, 5};
+        List<List<Integer>> duplicates = solution(arr);
+
+        for (List<Integer> indices : duplicates) {
+            System.out.println(indices);
+        }
+    }
+
+    public static List<List<Integer>> solution(int arr []) {
+
+        Map<Integer, List<Integer>> map = new LinkedHashMap<>();
+
+         for(int i=0; i< arr.length; i++) {
+
+             if(map.containsKey(arr[i])){
+
+                 map.get(arr[i]).add(i);
+             }
+             else{
+
+                 List<Integer> list = new ArrayList<>();
+                 list.add(i);
+                 map.put(arr[i], list);
+             }
+         }
+         System.out.println(map);
+        List<List<Integer>> result = new ArrayList<>();
+        for (Map.Entry<Integer, List<Integer>> entry : map.entrySet()) {
+            if (entry.getValue().size() > 1) {
+                result.add(entry.getValue());
+            }
+        }
+
+        return result;
+    }
+}
+
+
+
